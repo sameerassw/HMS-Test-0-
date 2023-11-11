@@ -72,12 +72,10 @@ return true;
 }
 </script>
 </head>
-
-	<body 
-	//style="background-image: url(img/seusl.jpg);  background-repeat: no-repeat; background-position: center; background-size: cover;">
-	<!-- <?php include('includes/header.php');?> -->
+<body>
+	<?php include('includes/header.php');?>
 	<div class="ts-main-content">
-		
+		<?php include('includes/sidebar.php');?>
 		<div class="content-wrapper">
 			<div class="container-fluid">
 
@@ -85,6 +83,7 @@ return true;
 					<div class="col-md-12">
 					
 						<h2 class="page-title">User Login </h2>
+
 
 						<div class="row">
 					<div class="col-md-6 col-md-offset-3">
@@ -102,8 +101,8 @@ return true;
 								</form>
 							</div>
 						</div>
-						<div class="text-center text-light" style="color:black;">
-							<a href="forgot-password.php" style="color:black;">Forgot password?</a>
+						<div class="text-center text-light" style="color: white;">
+							<a href="forgot-password.php" class="text-light">Forgot password?</a>
 						</div>
 					</div>
 				</div>
