@@ -1,0 +1,6 @@
+admin user name		: admin
+admin user password	: admin
+
+
+test user name		: test@gmail.com
+test user password	: Test
